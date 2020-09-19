@@ -13,3 +13,11 @@ School of Graduation: University of International Business and Economics
 Major: Law
 Languages: C(beginner) C++(beginner) Python(beginner)
 Class: Qiuzhi A
+
+# Wen Mingyuan
+User name: wenmingyuan
+Email: wenmingyuan12@126.com
+School of Graduation: Shandong University
+Major: Biological Technology
+Languages: Python(beginner)
+Class: Qiuzhi B
