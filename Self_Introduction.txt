@@ -6,7 +6,7 @@ Major: Biomedical Engineering
 Languages: Python(skillful) Java(beginner) C(beginner)
 Class: Qiuzhi B
 
-#LUO Haoming
+# LUO Haoming
 User name: luohaoming98
 Email: luohaoming98@live.com
 School of Graduation: University of International Business and Economics
