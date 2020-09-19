@@ -21,3 +21,11 @@ School of Graduation: Shandong University
 Major: Biological Technology
 Languages: Python(beginner)
 Class: Qiuzhi B
+
+# Zhang Tianning
+User name: Augenstern822
+Email: 19262724@qq.com
+School of Graduation: China Foreign Affairs University
+Major: English
+Languages: C(beginner)
+Class: Qiuzhi A
