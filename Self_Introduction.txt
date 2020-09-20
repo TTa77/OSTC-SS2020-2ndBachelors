@@ -29,3 +29,11 @@ School of Graduation: China Foreign Affairs University
 Major: English
 Languages: C(beginner)
 Class: Qiuzhi A
+
+# Chen Ruoyu
+User name:zoechenry
+Email: zoechenruoyu@163.com
+School of Graduation: Shanghai University 
+Major: Finance
+Languages:Python(beginner)
+Class: Qiuzhi 3
