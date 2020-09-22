@@ -1,5 +1,5 @@
 # **Yutong Guo**
-> **User name:** TTa77
+> **User name:** [TTa77](https://github.com/TTa77)
 
 > **Email:** guoyutong1022@outlook.com
 
@@ -11,8 +11,8 @@
 
 > **Class:** Qiuzhi B
 
-# **LUO Haoming**
-> **User name:** luohaoming98
+# **Luo Haoming**
+> **User name:** [luohaoming98](https://github.com/luohaoming98)
 
 > **Email:** luohaoming98@live.com
 
@@ -25,7 +25,7 @@
 > **Class:** Qiuzhi A
 
 # **Wen Mingyuan**
-> **User name:** wenmingyuan
+> **User name:** [wenmingyuan](https://github.com/wenmingyuan)
 
 > **Email:** wenmingyuan12@126.com
 
@@ -38,7 +38,7 @@
 > **Class:** Qiuzhi B
 
 # **Zhang Tianning**
-> **User name:** Augenstern822
+> **User name:** [Augenstern822](https://github.com/Augenstern822)
 
 > **Email:** 19262724@qq.com
 
@@ -51,7 +51,7 @@
 > **Class:** Qiuzhi A
 
 # **Chen Ruoyu**
-> **User name:** zoechenry
+> **User name:** [zoechenry](https://github.com/zoechenry)
 
 > **Email:** zoechenruoyu@163.com
 
