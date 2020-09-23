@@ -63,3 +63,11 @@ int main()
         printf("%d",aa[i]);
     printf("\n");
 }
+
+# Python3 Wen Mingyuan
+num = input('请输入一个四位数：')
+first = str((int(num[3]) + 5) % 10)
+second = str((int(num[2]) + 5) % 10)
+third = str((int(num[1]) + 5) % 10)
+last = str((int(num[0]) + 5) % 10)
+print(first + second + third + last)
