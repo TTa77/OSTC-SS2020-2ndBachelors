@@ -71,3 +71,12 @@ second = str((int(num[2]) + 5) % 10)
 third = str((int(num[1]) + 5) % 10)
 last = str((int(num[0]) + 5) % 10)
 print(first + second + third + last)
+
+#python3 Chen Ruoyu
+num = int(input('输入一个四位的整数:'))
+a = (num // 1000 + 5) % 10
+b = (num // 100 % 10 + 5) % 10
+c = (num // 10 % 10 + 5) % 10
+d = (num % 10 + 5) % 10
+print(d * 1000 + c * 100 + b * 10 + a)
+
