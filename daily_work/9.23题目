@@ -80,3 +80,22 @@ c = (num // 10 % 10 + 5) % 10
 d = (num % 10 + 5) % 10
 print(d * 1000 + c * 100 + b * 10 + a)
 
+//Java Yutong Guo
+package test;
+import java.util.Scanner;
+public class Encrypt {
+	public static void main(String arg[]) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("请输入一个四位数:");
+		String number = input.next();
+
+		int first = ((number.charAt(0)-'0')+5)%10;
+		int second = ((number.charAt(1)-'0')+5)%10;
+		int third = ((number.charAt(2)-'0')+5)%10;
+		int forth = ((number.charAt(3)-'0')+5)%10;
+
+		int new_num = forth * 1000 + third * 100 + second * 10 + first;
+		System.out.println("加密后的数字为:" + new_num);
+	}
+
+}
