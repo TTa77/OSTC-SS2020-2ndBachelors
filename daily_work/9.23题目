@@ -99,3 +99,22 @@ public class Encrypt {
 	}
 
 }
+
+// C++ Luo Haoming
+#include <iostream>
+int main()
+{
+	std::cout << "Enter a four-digital number:" << std::endl;
+	int number = 0, number1 = 0, number2 = 0, number3 = 0, number4 = 0, code1 = 0, code2 = 0, code3 = 0, code4 = 0;
+	std::cin >> number;
+	number1 = number / 1000;
+	number2 = (number - 1000 * number1) / 100;
+	number3 = (number - 1000 * number1 - 100 * number2) / 10;
+	number4 = number - 1000 * number1 - 100 * number2 - 10 * number3;
+	code1 = (number4 + 5) % 10;
+	code2 = (number3 + 5) % 10;
+	code3 = (number2 + 5) % 10;
+	code4 = (number1 + 5) % 10;
+	std::cout << code1 << code2 << code3 << code4 << std::endl;
+	return 0;
+} 
