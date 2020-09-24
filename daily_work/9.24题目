@@ -31,3 +31,25 @@ int a[100][100] = {0};
     }
 return 0;
 }
+
+# Python3 Wen Mingyuan 不会打印等腰的三角形 -_-||
+import math
+
+n = int(input('请输入一个正整数：'))
+one_space = ' '
+
+# 迭代每行
+for i in range(1, n + 1):
+    first_num = 1
+    first_space = ''
+    line = ''
+    # 得到每行第一个数字及其左侧空白的字符串
+    for k in range(1, n - i + 1):    
+        first_space = first_space + one_space
+    line = line + first_space + str((first_num))
+    # 得到每行其余数字及其左侧空白的字符串
+    for j in range(2, i + 1):
+        num = math.factorial(i - 1) / (math.factorial(j - 1) * math.factorial(i - j))
+        line = line + '  ' + str(int(num))
+    # 打印最终的每行
+    print(line)
