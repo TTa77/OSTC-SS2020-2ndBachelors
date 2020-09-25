@@ -53,3 +53,14 @@ def huiwenshu(a):
         b //= 10
     return c == a
 print(huiwenshu())
+
+# Python3 Wen Mingyuan
+while True:
+    num = input('请输入一个5位数：')
+    if len(num) != 5:
+        print('输入位数有误！请重新输入。')
+        continue
+    if num[0] == num[-1] and num[1] == num[-2]:
+        print(num + '是回文数')
+    else:
+        print(num + '不是回文数')
