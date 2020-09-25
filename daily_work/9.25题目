@@ -19,3 +19,28 @@ int main( )
         printf("这不是回文数\n");
     }
 }
+
+//JAVA YutongGuo
+
+import java.util.Scanner;
+public class Palindromic {
+    public static void main(String arg[]) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("请输入一个五位数: ");
+        int num = input.nextInt();
+        int[] a = new int[5];
+
+        for (int i = 4; i >=  0; i--) {
+            a[i] = num % 10;
+            num /= 10;
+        }
+
+        if ((a[0] == a[4]) && (a[1] == a[3])){
+            System.out.println("这是回文数");
+        }else {
+            System.out.println("这不是回文数");
+        }
+    }
+
+}
+
