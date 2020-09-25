@@ -64,3 +64,24 @@ while True:
         print(num + '是回文数')
     else:
         print(num + '不是回文数')
+
+// C++ Luo Haoming
+#include <iostream>
+int main()
+{
+	std::cout << "请输入一个五位数:" << std::endl;
+	int number = 0, number1 = 0, number2 = 0, number3 = 0, number4 = 0, number5 = 0;
+	std::cin >> number;
+	number1 = number / 10000;
+	number2 = (number - 10000 * number1) / 1000;
+	number3 = (number - 10000 * number1 - 1000 * number2) / 100;
+	number4 = (number - 10000 * number1 - 1000 * number2 - 100 * number3) / 10;
+	number5 = number - 10000 * number1 - 1000 * number2 - 100 * number3 - 10 * number4;
+	if (number1 == number5 && number2 == number4) {
+		std::cout << "这是回文数。" << std::endl;
+		}
+	else{
+		std::cout << "这不是回文数。" << std::endl;	
+		}
+	return 0;
+}
