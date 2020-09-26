@@ -3,7 +3,7 @@
 
 > **Email:** guoyutong1022@outlook.com
 
-> **School of Graduation:** Hunan University
+> **School of Graduation:** [Hunan University](https://www.hnu.edu.cn/)
 
 > **Major:** Biomedical Engineering
 
@@ -16,7 +16,7 @@
 
 > **Email:** luohaoming98@live.com
 
-> **School of Graduation:** University of International Business and Economics
+> **School of Graduation:** [University of International Business and Economics](http://www.uibe.edu.cn/)
 
 > **Major:** Law
 
@@ -29,7 +29,7 @@
 
 > **Email:** wenmingyuan12@126.com
 
-> **School of Graduation:** Shandong University
+> **School of Graduation:** [Shandong University](https://www.sdu.edu.cn/)
 
 > **Major:** Biological Technology
 
@@ -42,7 +42,7 @@
 
 > **Email:** 19262724@qq.com
 
-> **School of Graduation:** China Foreign Affairs University
+> **School of Graduation:** [China Foreign Affairs University](http://www.cfau.edu.cn/)
 
 > **Major:** English
 
@@ -55,7 +55,7 @@
 
 > **Email:** zoechenruoyu@163.com
 
-> **School of Graduation:** Shanghai University 
+> **School of Graduation:** [Shanghai University](https://www.shu.edu.cn/) 
 
 > **Major:** Finance
 
