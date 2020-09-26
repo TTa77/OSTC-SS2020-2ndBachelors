@@ -2,3 +2,16 @@
 数字的个位数不为7；
 数字的十位数不为5；
 数字的百位数不为3.
+
+# Python3 Wen Mingyuan
+digit = int(input('请输入一个大于100的三位数：'))
+sum = 0
+
+for i in range(100, digit + 1):
+    first_num = i // 100 
+    second_num = (i // 10) % 10
+    thrid_num = i % 10
+    if first_num != 3 and second_num != 5 and thrid_num != 7:
+        sum = sum + i
+
+print(sum)
