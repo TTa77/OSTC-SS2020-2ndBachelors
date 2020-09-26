@@ -15,3 +15,12 @@ for i in range(100, digit + 1):
         sum = sum + i
 
 print(sum)
+
+#Python3 Chen Ruoyu
+import random
+a = random.randint(101, 1000)
+sum = 0
+for i in range(101, a):
+    if i % 10 != 7 and i // 10 % 10 != 5 and i // 100 != 3:
+        sum += i 
+print(sum)
