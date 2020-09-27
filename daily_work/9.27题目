@@ -1,1 +1,20 @@
 题目：一个整数，它加上100后是一个完全平方数，再加上268又是一个完全平方数，请问该数是多少？
+
+//JAVA Yutong Guo
+public class Find_num {
+	public static void main(String arg[]) {
+		boolean status = true;
+		int num = 1;
+		while (status) {
+			double a = Math.pow(num+100,0.5)%1;
+			double b = Math.pow(num+368,0.5)%1;
+			if ((a == 0) && (b == 0)){
+				System.out.print(num);
+				status = false;
+			}else {
+				num ++;
+			}
+		}
+	}
+
+}
