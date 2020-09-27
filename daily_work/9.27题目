@@ -56,3 +56,19 @@ for i in range(-100, 10000):
     n = int(sqrt(i + 268))
     if m * m == i + 100 and n * n == i +268:
         print(i)
+
+// C++ Luo Haoming
+#include <iostream>
+#include <cmath>
+int main()
+{
+	long int k, m, n;
+	for (k = 1; k < 1000000; k++)
+	{
+      	m = sqrt(k + 100); 
+     	n = sqrt(k + 268); 
+      	if (m * m == k + 100 && n * n == k + 268)
+         std::cout << k << std::endl;
+     	}
+	return 0;
+ }
