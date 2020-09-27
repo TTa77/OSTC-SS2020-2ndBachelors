@@ -29,3 +29,17 @@ for first_num in range(-100, 40000):
                 if third_num == j * j:
                     print(first_num)
                     break
+
+// C Zhang Tianning
+#include "math.h" 
+main()
+{
+   long int i, x, y, z;
+   for (i = 1; i < 100000; i++)
+   {
+      x = sqrt(i + 100); 
+      y = sqrt(i + 268); 
+      if (x*x == i + 100 && y*y == i + 268)
+         printf("\n%ld\n", i);
+   }
+}
