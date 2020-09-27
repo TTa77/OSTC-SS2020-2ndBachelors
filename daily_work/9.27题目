@@ -1,4 +1,5 @@
 题目：一个整数，它加上100后是一个完全平方数，再加上268又是一个完全平方数，请问该数是多少？
+	
 
 //JAVA Yutong Guo
 public class Find_num {
@@ -43,3 +44,15 @@ main()
          printf("\n%ld\n", i);
    }
 }
+
+
+
+
+
+// python3 Chen Ruoyu
+from math import sqrt
+for i in range(-100, 10000):
+    m = int(sqrt(i + 100))
+    n = int(sqrt(i + 268))
+    if m * m == i + 100 and n * n == i +268:
+        print(i)
