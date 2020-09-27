@@ -18,3 +18,14 @@ public class Find_num {
 	}
 
 }
+
+# Python3 Wen Mingyuan
+for first_num in range(-100, 40000):
+    second_num = first_num + 100  
+    third_num = second_num + 268
+    for i in range(0, 201):
+        if second_num == i * i:
+            for j in range(0, 201):
+                if third_num == j * j:
+                    print(first_num)
+                    break
