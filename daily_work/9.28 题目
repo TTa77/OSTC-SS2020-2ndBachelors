@@ -1,4 +1,4 @@
-输入一个字符，统计输出的字母、数字、其他字符个数
+输入一个字符，统计输出的字母、数字、空格和其他字符个数
 Python3 Chen Ruoyu
 a = 0
 b = 0
@@ -16,3 +16,20 @@ for i in str1:
         d += 1
 
 print(a, b, d) 
+
+# Python3 Wen Mingyuan
+import re
+
+str1 = input('请输入一行字符：')
+letter_list = re.findall('[a-zA-Z]', str1)
+digit_list = re.findall('[0-9]', str1)
+space_list = re.findall('\\s', str1)
+
+letter_num = str(len(letter_list))
+space_num = str(len(space_list))
+digit_num = str(len(digit_list))
+other_num = str(len(str1) - int(letter_num) - int(space_num) \
+- int(digit_num))
+
+print('共有' + letter_num + '个字母、' + space_num + '个空格、' \
++ digit_num + '个数字和' + other_num + '个其他字符')
