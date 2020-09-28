@@ -1,1 +1,18 @@
-输入一个字符，统计输出的字母、数字、字符串个数
+输入一个字符，统计输出的字母、数字、其他字符个数
+Python3 Chen Ruoyu
+a = 0
+b = 0
+c = 0
+d = 0
+str1 = str(input('输入字符串: '))
+for i in str1:
+    if i.isalpha():
+        a += 1
+    elif i.isdigit():
+        b += 1
+    elif i.isspace():
+        c += 1
+    else:
+        d += 1
+
+print(a, b, d) 
