@@ -33,3 +33,24 @@ other_num = str(len(str1) - int(letter_num) - int(space_num) \
 
 print('共有' + letter_num + '个字母、' + space_num + '个空格、' \
 + digit_num + '个数字和' + other_num + '个其他字符')
+
+
+// C Zhang Tianning
+#include <stdio.h>
+int main(){
+    char c; 
+    int letters=0, space=0, digit=0, others=0;
+    printf("输入一些字符：");
+    while((c=getchar())!='\n'){ 
+        if(c>='a'&&c<='z'||c>='A'&&c<='Z')
+            letters++;
+        else if(c==' ')
+            space++;
+        else if(c>='0'&&c<='9')
+            digit++;
+        else
+            others++;
+    }
+    printf("\n统计结果:\n字母=%d\n空格=%d\n整数=%d\n其他字符=%d\n\n", letters, space, digit, others);
+    return 0;
+}
